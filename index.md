@@ -1,37 +1,43 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive and Media Queries</title>
+</head>
+<body>
+    <main class="main-bg">
+<div class="main-form">
+    <div class="one">
 
-You can use the [editor on GitHub](https://github.com/Fhayz/HTLM-ISSUES/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+        <div> <h1> Learn to Code by watching others  </h1><br>
+        <P class="shoe">
+See how experienced developers solve problems in real-time. Watching scripted tutorials in great but understanding how developers think in invaluable.
+</P>  </div>
+        
+    </div>
+    <div class="two">
+        <button type="button" class="btn-one"><bold>Try it free 7 days</bold> then $20/mo therafter </button>
+        <form action="#">
+            <div class="container">
+                
+                <input type="text" placeholder="First Name" name="username" maxlength="15" min-length="1" required>
+                <input type="text" placeholder="Last Name" name="username" maxlength="15" min-length="2" required> 
+                <input type="text" placeholder="Email Address" name="username" required> 
+                <input type="password" placeholder="Password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>  
+                <button type="submit" class="btn-two">CLAIM YOUR FREE TRIAL</button> <br> 
+                <label for="">By clicking the button you are agreeing to our <strong>Terms and Services </strong> </label>
+            </div>
+            
+        </form>
+    </div>
+</div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Fhayz/HTLM-ISSUES/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+    </main>
+</body>
+</html>
